@@ -1,0 +1,38 @@
+/*navbar section*/
+.navbar{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:1rem 2rem;
+    background-color:#fff;
+    border-bottom:1px solid #eee;
+}
+.logo{
+    display:flex;
+    align-items:center;
+}
+.logo-img{
+    height: 40px;
+    width:auto;
+    display:block;
+}
+.navbar-link{
+    display:flex;
+    gap:2rem;
+
+}
+.navbar-link a{
+    text-decoration:none;
+    color:#333;
+    font-weight:bold;
+}
+.registerbtn{
+    padding:0.5rem 1rem;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+}
+.registerbtn-primary{
+    background-color:#007bff;
+    color:#fff;
+}

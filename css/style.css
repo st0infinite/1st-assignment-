@@ -106,3 +106,56 @@ registerbtn{
   height:56px;
   font-size:16px;
 }
+ <!-- meet the speakers sectioon -->
+ .sp{
+  padding:96px 64px;
+  text-align:center;
+ }
+ .sp h1{
+  font-size:40px;
+  margin-bottom:48px;
+
+ }
+ .sp-s{
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:24px;
+  max-width:900px;
+  margin:0 auto;
+ }
+ .sp-ss{
+  border:1px solid #eee;
+  border-radius:10px;
+  overflow:hidden;
+  text-align:left;
+ }
+ .sp-image {
+  aspect-ratio:16/11;
+  background:#e2e2e2;
+  overflow:hidden;
+
+
+ }
+ .sp-image img{
+  width:100%;
+  height:100%;
+  object-fit:cover;
+  display:block;
+ }
+ .sp-info{
+  padding:20px;
+ }
+ .inner-info{
+  font-size:12px;
+  font-weight:700;
+  color:#2f4bf5;
+  letter-spacing:0.5px;
+ }
+ .sp-info h3{
+  font-size:20px;
+  margin:8px 0 4px;
+ }
+ .sp-info p{
+  color:#666;
+  font-size:14px;
+ }
